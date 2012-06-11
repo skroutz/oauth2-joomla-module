@@ -9,7 +9,7 @@
 // no direct access
 defined('_JEXEC') or die('Restricted access');
 
-class modSkroutzHelper
+class modSkroutzEasyHelper
 {
 	function getReturnURL($params, $type)
 	{

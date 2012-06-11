@@ -12,9 +12,9 @@ defined('_JEXEC') or die('Restricted access');
 // Include the syndicate functions only once
 require_once (dirname(__FILE__).DS.'helper.php');
 
-$type 	= modSkroutzHelper::getType();
-$return	= modSkroutzHelper::getReturnURL($params, $type);
+$type 	= modSkroutzEasyHelper::getType();
+$return	= modSkroutzEasyHelper::getReturnURL($params, $type);
 
 $user =& JFactory::getUser();
 
-require(JModuleHelper::getLayoutPath('mod_skroutz'));
+require(JModuleHelper::getLayoutPath('mod_skroutzeasy'));
