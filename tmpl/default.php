@@ -9,6 +9,7 @@ defined('_JEXEC') or die('Restricted access'); ?>
 
 	<?php echo $logout_hidden_inputs ?>
 	<input type="hidden" name="return" value="<?php echo $return; ?>" />
+	<?php echo JHTML::_('form.token'); ?>
 </form>
 <?php else : ?>
 <form action="<?php echo JRoute::_('index.php', true, $params->get('usesecure')); ?>" method="post" name="login" id="form-login" >
