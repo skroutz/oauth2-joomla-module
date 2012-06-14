@@ -39,6 +39,24 @@ class modSkroutzEasyHelper
 		return base64_encode($url);
 	}
 
+	function getLogoutHiddenInputs($type)
+	{
+		$version = new JVersion;
+		$joomla = $version->getShortVersion();
+
+		if (substr($joomla,0,3) == '1.5') {
+			// Joomla 1.5
+			$html = "<input type=\"hidden\" name=\"option\" value=\"com_user\" />";
+			$html .= "<input type=\"hidden\" name=\"task\" value=\"$type\" />";
+		} else {
+			// Joomla 1.6, 2.5
+			$html = "<input type=\"hidden\" name=\"option\" value=\"com_users\" />";
+			$html .= "<input type=\"hidden\" name=\"task\" value=\"user.$type\" />";
+		}
+
+		return $html;
+	}
+
 	function getType()
 	{
 		$user = & JFactory::getUser();

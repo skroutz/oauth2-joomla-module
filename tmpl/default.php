@@ -7,8 +7,7 @@ defined('_JEXEC') or die('Restricted access'); ?>
 		<input type="submit" name="Submit" class="button" value="<?php echo JText::_('MOD_SKROUTZ_EASY_BUTTON_LOGOUT'); ?>" />
 	</div>
 
-	<input type="hidden" name="option" value="com_user" />
-	<input type="hidden" name="task" value="logout" />
+	<?php echo $logout_hidden_inputs ?>
 	<input type="hidden" name="return" value="<?php echo $return; ?>" />
 </form>
 <?php else : ?>

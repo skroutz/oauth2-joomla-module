@@ -41,6 +41,7 @@
 		<language tag="el-GR">el-GR/el-GR.mod_skroutzeasy.ini</language>
 	</languages>
 
+	<!-- Joomla 1.5.x -->
 	<params>
 		<param name="pretext" type="textarea" cols="30" rows="5" default="MOD_SKROUTZ_EASY_PRETEXT" label="Pre-text" description="PARAMPRETEXT" />
 		<param name="posttext" type="textarea" cols="30" rows="5" default="MOD_SKROUTZ_EASY_POSTTEXT" label="Post-text" description="PARAMPOSTTEXT" />
@@ -59,4 +60,29 @@
 			<option value="1">Yes</option>
 		</param>
 	</params>
+
+	<!-- Joomla 1.6.x & 2.5.x -->
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="pretext" type="textarea" cols="30" rows="5" default="MOD_SKROUTZ_EASY_PRETEXT" label="Pre-text" description="PARAMPRETEXT" />
+				<field name="posttext" type="textarea" cols="30" rows="5" default="MOD_SKROUTZ_EASY_POSTTEXT" label="Post-text" description="PARAMPOSTTEXT" />
+				<field name="login" type="menuitem" default="" disable="separator" label="Login Redirection URL" description="PARAMLOGINREDIRECTURL" state="1" />
+				<field name="logout" type="menuitem" default="" disable="separator" label="Logout Redirection URL" description="PARAMLOGOUTREDIRECTURL" state="1" />
+				<field name="greeting" type="radio" default="1" label="Greeting" description="Show/Hide the simple greeting text">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="name" type="list" default="0" label="Name/Username">
+					<option value="0">Username</option>
+					<option value="1">Name</option>
+				</field>
+				<field name="usesecure" type="radio" default="0" label="Encrypt Login Form" description="Submit encrypted login data (requires SSL)">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
 </install>

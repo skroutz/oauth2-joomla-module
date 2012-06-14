@@ -15,6 +15,8 @@ require_once (dirname(__FILE__).DS.'helper.php');
 $type 	= modSkroutzEasyHelper::getType();
 $return	= modSkroutzEasyHelper::getReturnURL($params, $type);
 
+$logout_hidden_inputs = modSkroutzEasyHelper::getLogoutHiddenInputs($type);
+
 $user =& JFactory::getUser();
 
 require(JModuleHelper::getLayoutPath('mod_skroutzeasy'));
