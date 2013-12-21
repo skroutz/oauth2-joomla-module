@@ -92,7 +92,7 @@ while protecting your site from potential (undiscovered) security vulnerabilitie
 
 ![Editing OAuth2 Joomla Module][oauth2-joomla-module-edit]
 
-[oauth2-joomla-module-install]: /skroutz/oauth2-joomla-module/raw/master/doc/oauth2-joomla-module-install.png "Installing OAuth2 Joomla module"
-[oauth2-joomla-module-enable]: /skroutz/oauth2-joomla-module/raw/master/doc/oauth2-joomla-module-enable.png "Enabling OAuth2 Joomla module"
-[oauth2-joomla-module-edit]: /skroutz/oauth2-joomla-module/raw/master/doc/oauth2-joomla-module-edit.png "Editing OAuth2 Joomla module"
+[oauth2-joomla-module-install]: https://raw.github.com/skroutz/oauth2-joomla-module/master/doc/oauth2-joomla-module-install.png "Installing OAuth2 Joomla module"
+[oauth2-joomla-module-enable]: https://raw.github.com/skroutz/oauth2-joomla-module/master/doc/oauth2-joomla-module-enable.png "Enabling OAuth2 Joomla module"
+[oauth2-joomla-module-edit]: https://raw.github.com/skroutz/oauth2-joomla-module/master/doc/oauth2-joomla-module-edit.png "Editing OAuth2 Joomla module"
 [releases]: https://github.com/skroutz/oauth2-joomla-component/releases
