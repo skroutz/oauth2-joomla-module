@@ -24,21 +24,22 @@ while protecting your site from potential (undiscovered) security vulnerabilitie
 
 ### Installation instructions for VirtueMart 2
 
-1. Install Joomla! and VirtueMart
-2. Login to the 'Administration' and install the 'Module'
+1. Download the latest version of the module from [Releases][releases]
+2. Install Joomla! and VirtueMart
+3. Login to the 'Administration' and install the 'Module'
     - Select 'Install / Uninstall' from the 'Extensions' menu
     - Click 'Choose file' and select the extension (`mod_skroutzeasy.zip`) from your HDD
     - Upload the file using 'Upload File & Install'
 
 ![Installing OAuth2 Joomla Module][oauth2-joomla-module-install]
 
-3. Enable the 'Module'
+4. Enable the 'Module'
     - Select 'Module Manager' from the 'Extensions' menu
     - Select the 'SkroutzEasy' module and press 'Enable'
 
 ![Enabling OAuth2 Joomla Module][oauth2-joomla-module-enable]
 
-4. Position the 'Module' (optional)
+5. Position the 'Module' (optional)
     - Optionally you can choose where to position the module
       using the module edit page in the same way you can edit
       every Joomla module
@@ -69,21 +70,22 @@ while protecting your site from potential (undiscovered) security vulnerabilitie
 
 ### Οδηγίες εγκατάστασης για VirtueMart 2
 
-1. Εγκαταστήστε το Joomla! και το VirtueMart
-2. Συνδεθείτε στο 'Administration' περιβάλλον και εγκαταστήστε το 'Module'
+1. Κατεβάστε την τελευταία έκδοση του module από τα [Releases][releases]
+2. Εγκαταστήστε το Joomla! και το VirtueMart
+3. Συνδεθείτε στο 'Administration' περιβάλλον και εγκαταστήστε το 'Module'
     - Επιλέξτε 'Install / Uninstall' από το μενού 'Extensions'
     - Επιλέξτε 'Choose file' και μετά διαλέξτε το extension (`mod_skroutzeasy.zip`) από τον σκληρό δίσκο
     - Εγκαταστήστε το αρχείο επιλέγοντας 'Upload File & Install'
 
 ![Installing OAuth2 Joomla Module][oauth2-joomla-module-install]
 
-3. Ενεργοποιήστε το 'Module'
+4. Ενεργοποιήστε το 'Module'
     - Επιλέξτε τον 'Module Manager' από το μενού 'Extensions'
     - Διαλέξτε το module 'SkroutzEasy' και πατήστε το 'Enable'
 
 ![Enabling OAuth2 Joomla Module][oauth2-joomla-module-enable]
 
-4. Τοποθετήστε το 'Module' (προεραιτικό)
+5. Τοποθετήστε το 'Module' (προεραιτικό)
     - Προεραιτικά μπορείτε να επιλέξετε που θα τοποθετήσετε το
       module χρησιμοποιώντας τη σελίδα επεξεργασίας του module,
       με τον ίδιο τρόπο που θα τοποθετούσατε οποιοδήποτε Joomla module
@@ -93,3 +95,4 @@ while protecting your site from potential (undiscovered) security vulnerabilitie
 [oauth2-joomla-module-install]: /skroutz/oauth2-joomla-module/raw/master/doc/oauth2-joomla-module-install.png "Installing OAuth2 Joomla module"
 [oauth2-joomla-module-enable]: /skroutz/oauth2-joomla-module/raw/master/doc/oauth2-joomla-module-enable.png "Enabling OAuth2 Joomla module"
 [oauth2-joomla-module-edit]: /skroutz/oauth2-joomla-module/raw/master/doc/oauth2-joomla-module-edit.png "Editing OAuth2 Joomla module"
+[releases]: https://github.com/skroutz/oauth2-joomla-component/releases
