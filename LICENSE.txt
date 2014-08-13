@@ -1,4 +1,4 @@
-Copyright (c) 2012 Skroutz S.A.
+Copyright (c) 2014 Skroutz S.A.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
